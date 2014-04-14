@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESView.h"
 
-@interface Quiz8ViewController : UIViewController
+@interface Quiz8ViewController : UIViewController {
+    CGFloat lastVelocity;
+}
+
+- (IBAction)addVertical:(id)sender;
+- (IBAction)addHorizontal:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIView *leftView;
+@property (weak, nonatomic) IBOutlet UIView *rightView;
+
+@property (weak, nonatomic) IBOutlet ESView *esView;
+
 
 @end

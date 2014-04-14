@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF145FAF18FC91B400D10CB9 /* ESView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF145FAE18FC91B400D10CB9 /* ESView.m */; };
+		BF145FB118FC9A9300D10CB9 /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = BF145FB018FC9A9300D10CB9 /* redframe.png */; };
+		BF145FB318FC9D0600D10CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF145FB218FC9D0600D10CB9 /* Main.storyboard */; };
 		BF2D56D818F86F2A00629F20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D56D718F86F2A00629F20 /* Foundation.framework */; };
 		BF2D56DA18F86F2A00629F20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D56D918F86F2A00629F20 /* CoreGraphics.framework */; };
 		BF2D56DC18F86F2A00629F20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D56DB18F86F2A00629F20 /* UIKit.framework */; };
 		BF2D56E218F86F2A00629F20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF2D56E018F86F2A00629F20 /* InfoPlist.strings */; };
 		BF2D56E418F86F2A00629F20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D56E318F86F2A00629F20 /* main.m */; };
 		BF2D56E818F86F2A00629F20 /* Quiz8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D56E718F86F2A00629F20 /* Quiz8AppDelegate.m */; };
-		BF2D56EB18F86F2A00629F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2D56E918F86F2A00629F20 /* Main.storyboard */; };
 		BF2D56EE18F86F2A00629F20 /* Quiz8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D56ED18F86F2A00629F20 /* Quiz8ViewController.m */; };
 		BF2D56F018F86F2A00629F20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2D56EF18F86F2A00629F20 /* Images.xcassets */; };
 		BF2D56F718F86F2A00629F20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2D56F618F86F2A00629F20 /* XCTest.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF145FAD18FC91B400D10CB9 /* ESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESView.h; sourceTree = "<group>"; };
+		BF145FAE18FC91B400D10CB9 /* ESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESView.m; sourceTree = "<group>"; };
+		BF145FB018FC9A9300D10CB9 /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
+		BF145FB218FC9D0600D10CB9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BF2D56D418F86F2900629F20 /* Quiz8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2D56D718F86F2A00629F20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF2D56D918F86F2A00629F20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +50,6 @@
 		BF2D56E518F86F2A00629F20 /* Quiz8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz8-Prefix.pch"; sourceTree = "<group>"; };
 		BF2D56E618F86F2A00629F20 /* Quiz8AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz8AppDelegate.h; sourceTree = "<group>"; };
 		BF2D56E718F86F2A00629F20 /* Quiz8AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz8AppDelegate.m; sourceTree = "<group>"; };
-		BF2D56EA18F86F2A00629F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF2D56EC18F86F2A00629F20 /* Quiz8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz8ViewController.h; sourceTree = "<group>"; };
 		BF2D56ED18F86F2A00629F20 /* Quiz8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz8ViewController.m; sourceTree = "<group>"; };
 		BF2D56EF18F86F2A00629F20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,9 +119,12 @@
 			children = (
 				BF2D56E618F86F2A00629F20 /* Quiz8AppDelegate.h */,
 				BF2D56E718F86F2A00629F20 /* Quiz8AppDelegate.m */,
-				BF2D56E918F86F2A00629F20 /* Main.storyboard */,
+				BF145FAD18FC91B400D10CB9 /* ESView.h */,
+				BF145FAE18FC91B400D10CB9 /* ESView.m */,
+				BF145FB218FC9D0600D10CB9 /* Main.storyboard */,
 				BF2D56EC18F86F2A00629F20 /* Quiz8ViewController.h */,
 				BF2D56ED18F86F2A00629F20 /* Quiz8ViewController.m */,
+				BF145FB018FC9A9300D10CB9 /* redframe.png */,
 				BF2D56EF18F86F2A00629F20 /* Images.xcassets */,
 				BF2D56DE18F86F2A00629F20 /* Supporting Files */,
 			);
@@ -229,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF145FB318FC9D0600D10CB9 /* Main.storyboard in Resources */,
 				BF2D56F018F86F2A00629F20 /* Images.xcassets in Resources */,
+				BF145FB118FC9A9300D10CB9 /* redframe.png in Resources */,
 				BF2D56E218F86F2A00629F20 /* InfoPlist.strings in Resources */,
-				BF2D56EB18F86F2A00629F20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 			files = (
 				BF2D56E818F86F2A00629F20 /* Quiz8AppDelegate.m in Sources */,
 				BF2D56E418F86F2A00629F20 /* main.m in Sources */,
+				BF145FAF18FC91B400D10CB9 /* ESView.m in Sources */,
 				BF2D56EE18F86F2A00629F20 /* Quiz8ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +291,6 @@
 				BF2D56E118F86F2A00629F20 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BF2D56E918F86F2A00629F20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF2D56EA18F86F2A00629F20 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		BF2D56FF18F86F2A00629F20 /* InfoPlist.strings */ = {
@@ -461,6 +463,7 @@
 				BF2D570818F86F2A00629F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF2D570918F86F2A00629F20 /* Build configuration list for PBXNativeTarget "Quiz8Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +472,7 @@
 				BF2D570B18F86F2A00629F20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
